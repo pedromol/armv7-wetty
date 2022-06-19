@@ -1,4 +1,4 @@
-FROM node:16-alpine
+FROM node:18-alpine
 
 RUN apk add --update --no-cache python3 g++ make && ln -sf python3 /usr/bin/python
 RUN python3 -m ensurepip
